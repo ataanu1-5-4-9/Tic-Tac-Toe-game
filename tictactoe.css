@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #961B22;
+}
+
+button {
+    transition: transform 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.tictactoe {
+    margin-bottom: 20px;
+}
+
+ .container{
+    height:70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.game{
+    height:60vmin;
+     width :60vmin;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin
+
+}
+
+.box{
+    height:18vmin;
+    width :18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(1, 0, 0);
+    font-size: 8vmin;
+    color: cadetblue;
+    background-color: aliceblue;
+}
+.content{
+ height:20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+
+}
+.game-button1 {
+    display: block;
+    width: 10%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1rem; 
+    font-style:fantasy;
+    box-shadow: black;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+.game-button2 {
+    display: block;
+    width: 10%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1rem; 
+    font-style:fantasy;
+    box-shadow: black;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+#msg{
+    color:goldenrod;
+    font-size: 4vmin;
+    
+}
+
+.msg-container{
+   height: 4vmin;
+    
+}
+
+.hide{
+    display: none;
+};
